@@ -1,0 +1,53 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.input{
+  background-color: white;
+  color: black;
+}
+
+.secondContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+  height: 40vh;
+  width: 20vw;
+  padding: 2%;
+  background-color: white;
+  overflow-y: auto;
+  border-radius: 2vw;
+  box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.card{
+  border: 1px solid black;
+  margin: 1%;
+  height: auto;
+  width: 15vw;
+}
+
+.loader{
+  margin: 50%;
+}
